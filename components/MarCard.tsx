@@ -12,13 +12,13 @@ interface MarCardProps {
 }
 {/* types marProps shecvla !!!!!!!!!! */}
 const MarCard = ( { mar }: MarCardProps ) => {
-    const {saxeoba, feri, skami, skamisfasi, magida, magidisfasi, jerko, jerkosfasi, skamisfoto, magidissfoto, jerkosfoto} = mar;
+    const { marmarilosfoto, saxeoba, feri, skami, skamisfasi, magida, magidisfasi, jerko, jerkosfasi, skamisfoto, magidissfoto, jerkosfoto} = mar;
 
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='mar-card group'>
-        <div className='mar-card__content'>
+    <div className='mar-card group '>
+        <div className='mar-card__content '>
             <h2 className='mar-card__content-title'>
                 {feri} {saxeoba}
             </h2>
@@ -26,7 +26,7 @@ const MarCard = ( { mar }: MarCardProps ) => {
         
 
         <div className='relative w-full h-40 my-3 object-contain'> 
-            <Image src="/hero.png" fill
+            <Image src={marmarilosfoto} fill
             alt="satesto maramladi" 
             className='object-contain' />
         </div>

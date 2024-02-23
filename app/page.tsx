@@ -1,11 +1,12 @@
 import { CustomFilter, Hero, MarCard, SearchBar } from "@/components";
 import Image from "next/image";
 
-
+{/* rrger */}
 {/* export default async function Home() */}
 export default function Home({searchParams}) {
   const allData = 
   [{
+    "marmarilosfoto": "/tertrimarmarilo.png",
       "saxeoba": "მარმარილო",
       "feri": "თეთრი",
       "skami": "სკამი",
@@ -19,6 +20,7 @@ export default function Home({searchParams}) {
       "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "მარმარილო",
     "feri": "ყვითელი",
     "skami": "სკამი",
@@ -32,6 +34,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
   "saxeoba": "მარმარილო",
   "feri": "მწვანე",
   "skami": "სკამი",
@@ -45,6 +48,7 @@ export default function Home({searchParams}) {
   "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "მარმარილო",
     "feri": "შავი",
     "skami": "სკამი",
@@ -58,6 +62,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "გრანიტი",
     "feri": "შავი",
     "skami": "სკამი",
@@ -71,6 +76,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "გრანიტი",
     "feri": "ნაცრისფერი",
     "skami": "სკამი",
@@ -84,6 +90,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "გრანიტი",
     "feri": "ყავისფერი",
     "skami": "სკამი",
@@ -97,6 +104,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "გრანიტი",
     "feri": "წითელი",
     "skami": "სკამი",
@@ -110,6 +118,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "დიაბაზი",
     "feri": "მწვანე",
     "skami": "სკამი",
@@ -123,6 +132,7 @@ export default function Home({searchParams}) {
     "jerkosfoto": "/jerko.jpg"
   },
   {
+    "marmarilosfoto": "/hero.png",
     "saxeoba": "ბაზალტი",
     "feri": "",
     "skami": "სკამი",
@@ -157,15 +167,13 @@ export default function Home({searchParams}) {
       <Hero />
       <div className="mt-12 padding-x padding-y max-width" id="discover">
         <div className="home__text-container">
-          <h1 className="text-4xl font-extrabold">marmaladebis katalogi</h1>
-          <p>agmoachine marmaladebis uxvi gansxvaveba da teqstura mhhhhh</p>
+          <h1 className="text-4xl font-extrabold">მარმარილოს კატალოგი</h1>
         </div>
         <div className="home__filters">
           <SearchBar />
 
           <div className="home__filter-container">
-            <CustomFilter title="feri"/>
-            <CustomFilter title="fasi"/>
+            
           </div>
         </div>
 

@@ -11,6 +11,10 @@
   font-family: "Manrope", sans-serif;
 }
 
+body{
+  background-color: #f2f2f2;
+}
+
 /* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;
@@ -43,7 +47,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[64px] sm:text-[56px] text-[42px] font-extrabold;
 }
 
 .hero__subtitle {

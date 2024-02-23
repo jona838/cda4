@@ -15,6 +15,7 @@ export interface SearchManufacturerProps {
 }
 
 export interface MarProps {
+    "marmarilosfoto": string;
     "saxeoba": string;
     "feri": string;
     "skami": string;

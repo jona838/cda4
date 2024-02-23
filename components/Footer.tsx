@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-start gap-6">
           <div className="flex justify-center items-center">
             <Image src="./logo.svg" alt="logo" width={25} height={5} className='object-contain' />
-            <p>maramrilohub</p>
+            <p>მარმარილო</p>
           </div>
-          <p className="text-base text-gray-700">marmaladi 2024 <br />
-          All lefts reserved &copy;
+          <p className="text-base text-gray-700">მარმარილო 2024 <br />
+           საავტორო უფლებები დაცულია &copy;
           </p>
         </div>
         <div className="footer__links">
@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
       </div>
         <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-          <p>@2024 Marmarilo jima. All Rights Reserved</p>
+          <p>@2024 მარმარილო. საავტორო უფლებები დაცულია</p>
           <div className="footer__copyrights-link">
             <Link href='/' className="text-gray-500">
                 Privacy Policy

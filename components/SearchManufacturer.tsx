@@ -18,12 +18,12 @@ import { useRouter } from 'next/navigation';
 const SearchManufacturer = ({manufacturer, setManufacturer} : SearchManufacturerProps) => {
   const [query, setQuery] = useState('')
 
-  // const filteredManufacturers = 
-  //   query === "" 
-  //     ? manufacturers 
-  //     : manufacturers.filter((item) => (
-  //       item.toLowerCase().replace(/\s+/g, "").includes(query.toLowerCase().replace(/\s+/g, ""))
-  //     ))
+  const filteredManufacturers = 
+    query === "" 
+      ? manufacturers 
+      : manufacturers.filter((item) => (
+        item.toLowerCase().replace(/\s+/g, "").includes(query.toLowerCase().replace(/\s+/g, ""))
+      ))
   
   const router = useRouter();
 
@@ -111,7 +111,7 @@ const SearchManufacturer = ({manufacturer, setManufacturer} : SearchManufacturer
           </Combobox.Button>
           <Combobox.Input 
           className="search-manufacturer__input select-none"
-          placeholder='მარმარილო'
+          placeholder='მაგ:   მარმარილო'
           displayValue={(manufacturer: string) => manufacturer}
           onChange={(e) => {setQuery(e.target.value)}}
           />
@@ -123,7 +123,7 @@ const SearchManufacturer = ({manufacturer, setManufacturer} : SearchManufacturer
           afterLeave={() => setQuery('')}
           >
             <Combobox.Options>
-              {manufacturers.map((item) => (
+              {filteredManufacturers.map((item) => (
                   <Combobox.Option
                     key={item}
                     className={({active}) => `

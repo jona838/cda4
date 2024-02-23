@@ -3,8 +3,8 @@ import "./globals.css";
 import {Navbar, Footer} from "@/components";
 
 export const metadata: Metadata = {
-  title: "მარმარილოhub",
-  description: "აღმოაჩინე და შეიგრძენი მარმარილო",
+  title: "მარმარილო",
+  description: "მარმარილოს ფართო არჩევანი",
 };
 
 export default function RootLayout({

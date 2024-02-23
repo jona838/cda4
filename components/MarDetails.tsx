@@ -58,7 +58,7 @@ const MarDetails = ({ isOpen, closeModal, mar }:
                                     </button>
                                     <div className='flex-1 flex flex-col gap-3'>
                                         <div className='relative w-full h-40 rounded-lg'>
-                                            <Image src="/hero.png" fill priority
+                                            <Image src={mar.marmarilosfoto} fill priority
                                                 alt="satesto maramladi" 
                                                 className='object-contain' />
                                         </div>
