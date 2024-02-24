@@ -7,7 +7,8 @@ import CustomButton from './CustomButton';
 
 const Hero = () => {
   const handleScroll = () => {
-    window.scrollTo({ top: 1000, behavior: "smooth" })
+    const elem = document.getElementById("scroll");
+    elem?.scrollIntoView({behavior: 'smooth'})
   }
   return (
     <div className='hero'>
@@ -21,7 +22,7 @@ const Hero = () => {
         <CustomButton 
         title="კატალოგი"
         containerStyles="bg-primary-blue text-white rounded-full mt-10"
-        handleClick={() => {handleScroll}}
+        handleClick={() => {handleScroll()}}
         />
       </div>
       <div className='hero__image-container'>

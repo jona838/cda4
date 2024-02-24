@@ -166,7 +166,7 @@ export default function Home({searchParams}) {
     <main className="overflow-hidden">
       <Hero />
       <div className="mt-12 padding-x padding-y max-width" id="discover">
-        <div className="home__text-container">
+        <div className="home__text-container" id="scroll">
           <h1 className="text-4xl font-extrabold">მარმარილოს კატალოგი</h1>
         </div>
         <div className="home__filters">
