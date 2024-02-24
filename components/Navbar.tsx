@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import CustomButton from './CustomButton';
-
 const Navbar = () => {
   return (
     <header className='w-full absolute z-10'>
@@ -11,8 +9,6 @@ const Navbar = () => {
                 <Image src="./logo.svg" alt="logo" width={15} height={15} className='object-contain' />
                 <span>armarilo.ge</span>
             </Link>
-
-            
         </nav>
     </header>
   )

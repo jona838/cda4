@@ -43,7 +43,7 @@ const MarDetails = ({ isOpen, closeModal, mar }:
                             >
                                 <Dialog.Panel className="relative w-full max-w-lg max-h-[90vh] overflow-y-hidden transform rounded-2xl bg-white text-left shadow-xl transition-all flex flex-col gap-5">
                                     <button 
-                                    className='absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-full'
+                                    className='absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-200 rounded-full'
                                     type='button'
                                     onClick={closeModal}
                                     >
@@ -59,19 +59,19 @@ const MarDetails = ({ isOpen, closeModal, mar }:
                                     <div className='flex-1 flex flex-col gap-3'>
                                         <div className='relative w-full h-40 rounded-lg'>
                                             <Image src={mar.marmarilosfoto} fill priority
-                                                alt="satesto maramladi" 
+                                                alt="satesto marmarilo" 
                                                 className='object-contain' />
                                         </div>
                                         {/* skami */}
                                         <div className='flex gap-3 justify-between'>
-                                            <div className='flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg'>
+                                            <div className='flex-1 relative w-full h-24 bg-primary-blue-200 rounded-lg'>
                                                 <Image src={mar.skamisfoto} fill priority
-                                                    alt="satesto maramladi" 
+                                                    alt="satesto marmarilo" 
                                                     className='object-contain' />
                                             </div>
                                             
                                             
-                                            <div className='flex-1 top-4 relative w-full h-24 bg-primary-blue-100 rounded-lg'> 
+                                            <div className='flex-1 relative w-full top-4 h-24 bg-primary-blue-200 rounded-lg'> 
                                                 <div>
                                                     <h3 className='font-bold text-center'>
                                                     {mar.feri} {mar.saxeoba}ს  {mar.skami}
@@ -86,14 +86,14 @@ const MarDetails = ({ isOpen, closeModal, mar }:
                                         </div>
                                         {/* magida */}
                                         <div className='flex gap-3 justify-between'>
-                                            <div className='flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg'>
+                                            <div className='flex-1 relative w-full h-24 bg-primary-blue-200 rounded-lg'>
                                                 <Image src={mar.magidissfoto} fill priority
-                                                    alt="satesto maramladi" 
+                                                    alt="satesto marmarilo" 
                                                     className='object-contain' />
                                             </div>
                                             
                                             
-                                            <div className='flex-1 top-4 relative w-full h-24 bg-primary-blue-100 rounded-lg'> 
+                                            <div className='flex-1 relative w-full top-4 h-24 bg-primary-blue-200 rounded-lg'> 
                                                 <div>
                                                     <h3 className='font-bold text-center'>
                                                     {mar.feri} {mar.saxeoba}ს  {mar.magida}
@@ -108,14 +108,14 @@ const MarDetails = ({ isOpen, closeModal, mar }:
                                         </div>
                                         {/* jerko */}
                                         <div className='flex gap-3 justify-between'>
-                                            <div className='flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg'>
+                                            <div className='flex-1 relative w-full h-24 bg-primary-blue-200 rounded-lg'>
                                                 <Image src={mar.jerkosfoto} fill priority
-                                                    alt="satesto maramladi" 
+                                                    alt="satesto marmarilo" 
                                                     className='object-contain' />
                                             </div>
                                             
                                             
-                                            <div className='flex-1 top-4 relative w-full h-24 bg-primary-blue-100 rounded-lg'> 
+                                            <div className='flex-1 relative w-full top-4 h-24 bg-primary-blue-200 rounded-lg'> 
                                                 <div>
                                                     <h3 className='font-bold text-center'>
                                                     {mar.feri} {mar.saxeoba}ს  {mar.jerko}
