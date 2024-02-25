@@ -47,7 +47,7 @@ const SearchBar = () => {
     const searchParams = new URLSearchParams(window.location.search);
 
     if (manufacturer === 'ყველა') {
-      window.location.href = window.location.pathname; 
+      searchParams.set("manufacturer", ''); 
     }
     else if (manufacturer) {
       searchParams.set("manufacturer", manufacturer);
